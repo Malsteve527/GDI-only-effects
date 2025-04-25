@@ -2,7 +2,7 @@
 
 const int HDCX = GetSystemMetrics(0), HDCY = GetSystemMetrics(1);
 
-void gray() {
+void rgbquad() {
     HDC hdc, memdc;
     HBITMAP hdib;
 
@@ -36,5 +36,5 @@ void gray() {
 }
 
 int main() {
-    gray();
+    rgbquad();
 }
